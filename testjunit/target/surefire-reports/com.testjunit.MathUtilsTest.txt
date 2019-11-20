@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.testjunit.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in com.testjunit.MathUtilsTest
+testDivide  Time elapsed: 0.013 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: division ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.testjunit.MathUtilsTest.testDivide(MathUtilsTest.java:25)
+
