@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.testjunit.MathUtilsTest" time="0.02" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.testjunit.MathUtilsTest" time="0.048" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\ssanapureddy\eclipse-workspace\testjunit\target\test-classes;C:\Users\ssanapureddy\eclipse-workspace\testjunit\target\classes;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ssanapureddy\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-runner\1.4.0\junit-platform-runner-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ssanapureddy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-suite-api\1.4.0\junit-platform-suite-api-1.4.0.jar;"/>
+    <property name="java.class.path" value="Z:\git\junit_test\testjunit\target\test-classes;Z:\git\junit_test\testjunit\target\classes;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ssanapureddy\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-runner\1.4.0\junit-platform-runner-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ssanapureddy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-suite-api\1.4.0\junit-platform-suite-api-1.4.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SSANAP~1\AppData\Local\Temp\surefire2642870051363928299\surefirebooter1405821014938982641.jar C:\Users\ssanapureddy\AppData\Local\Temp\surefire2642870051363928299 2019-11-20T13-39-28_119-jvmRun1 surefire2954204038196375412tmp surefire_07238118199291243225tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\ssanapureddy\eclipse-workspace\testjunit\target\test-classes;C:\Users\ssanapureddy\eclipse-workspace\testjunit\target\classes;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ssanapureddy\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-runner\1.4.0\junit-platform-runner-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ssanapureddy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-suite-api\1.4.0\junit-platform-suite-api-1.4.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\SSANAP~1\AppData\Local\Temp\surefire4844783374644877295\surefirebooter7871179874523010971.jar C:\Users\ssanapureddy\AppData\Local\Temp\surefire4844783374644877295 2019-11-20T16-31-00_077-jvmRun1 surefire7808410718013576574tmp surefire_09076692021461770913tmp"/>
+    <property name="surefire.test.class.path" value="Z:\git\junit_test\testjunit\target\test-classes;Z:\git\junit_test\testjunit\target\classes;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\ssanapureddy\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-runner\1.4.0\junit-platform-runner-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ssanapureddy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;C:\Users\ssanapureddy\.m2\repository\org\junit\platform\junit-platform-suite-api\1.4.0\junit-platform-suite-api-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ssanapureddy"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
-    <property name="basedir" value="C:\Users\ssanapureddy\eclipse-workspace\testjunit"/>
+    <property name="basedir" value="Z:\git\junit_test\testjunit"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SSANAP~1\AppData\Local\Temp\surefire2642870051363928299\surefirebooter1405821014938982641.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SSANAP~1\AppData\Local\Temp\surefire4844783374644877295\surefirebooter7871179874523010971.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\SSANAP~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_221"/>
-    <property name="user.dir" value="C:\Users\ssanapureddy\eclipse-workspace\testjunit"/>
+    <property name="user.dir" value="Z:\git\junit_test\testjunit"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,10 +60,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.testjunit.MathUtilsTest" time="0.004"/>
-  <testcase name="testDivide" classname="com.testjunit.MathUtilsTest" time="0.013">
-    <failure message="division ==&gt; Expected java.lang.ArithmeticException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: division ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
-	at com.testjunit.MathUtilsTest.testDivide(MathUtilsTest.java:25)
-</failure>
+  <testcase name="testAdd" classname="com.testjunit.MathUtilsTest" time="0.018"/>
+  <testcase name="testDivide" classname="com.testjunit.MathUtilsTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at com.testjunit.MathUtilsTest.testDivide(MathUtilsTest.java:85)
+</skipped>
+    <system-out><![CDATA[Before Each
+Clean
+]]></system-out>
   </testcase>
+  <testcase name="testMultiply" classname="com.testjunit.MathUtilsTest" time="0.005"/>
+  <testcase name="testpositive" classname="com.testjunit.MathUtilsTest$AddTest" time="0.001"/>
+  <testcase name="testnegative" classname="com.testjunit.MathUtilsTest$AddTest" time="0"/>
 </testsuite>
